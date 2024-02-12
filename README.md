@@ -1,4 +1,4 @@
-![MasterHead](https://imgur.com/kjFlgH2)
+![MasterHead](https://raw.githubusercontent.com/fakhrul62/now/main/assets/img/huge.gif)
 ### Hi there 👋
 
 
