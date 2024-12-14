@@ -8,7 +8,7 @@
 
 ### 👋 About Me
 
-- 🌱 I’m currently deepening my skills in **React.js** and exploring back-end technologies like **Node.js** and **MongoDB**.
+- 🌱 I’m currently deepening my skills as **Full Stack Developer**.
 - 👯 I’m open to collaborating on **team projects** and **open-source contributions**.
 - 💬 Ask me about **React.js**, **JavaScript**, or anything web development-related!
 - 📫 Reach me at: **ifakhrul23@gmail.com**
@@ -50,20 +50,11 @@
 ### 🌐 Connect with Me
 
 <p align="center">
-  <a href="https://linkedin.com/in/fakhrul62" target="_blank">
+  <a href="[https://linkedin.com/in/fakhrul62](https://www.linkedin.com/in/md-fakhrul-alam-shuvo/)" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:ifakhrul23@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/-Gmail-%23D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
-"""
 
-# File path
-file_path = "/mnt/data/Fakhrul_GitHub_Portfolio_README.md"
-
-# Writing content to file
-with open(file_path, "w") as file:
-    file.write(readme_content)
-
-file_path
