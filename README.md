@@ -1,7 +1,4 @@
-# Creating a markdown file for the updated GitHub README content
 
-# Content of the README file
-readme_content = """\
 ![MasterHead](https://raw.githubusercontent.com/fakhrul62/now/main/assets/img/huge.gif)
 
 <h1 align="center">Hello there, I'm Fakhrul Alam Shuvo</h1>
