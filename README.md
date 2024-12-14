@@ -1,5 +1,5 @@
 
-![MasterHead](https://raw.githubusercontent.com/fakhrul62/now/main/assets/img/huge.gif)
+![MasterHead](https://raw.githubusercontent.com/fakhrul62/now/refs/heads/main/assets/img/huge.gif)
 
 <h1 align="center">Hello there, I'm Fakhrul Alam Shuvo</h1>
 <h3 align="center">An Enthusiastic Front-End Developer with a Passion for Building Interactive and Scalable Applications</h3>
