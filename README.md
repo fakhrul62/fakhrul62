@@ -54,7 +54,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=fakhrul62&theme=radical&hide_longest_streak=false&v=2" alt="Fakhrul's GitHub streak"/>
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=fakhrul62&amp;theme=radical&amp;hide_longest_streak=false&amp;v=4" alt="Fakhrul's GitHub streak"/>
 </p>
 
 ---
