@@ -8,10 +8,13 @@
 
 ### 👋 About Me
 
-- 🌱 I’m currently deepening my skills as **Full Stack Developer**.
+- 🚀 I’m fully focused on building modern **AI-powered web applications** that are useful, scalable, and easy to use.
+- 🧩 I work full-time with **WordPress** and have **6+ years of experience** building custom websites, themes, plugins, and WooCommerce solutions.
+- 🎨 I also build clean, responsive websites with **Webflow**, combining strong design with practical business goals.
+- 🧪 I’ve also built experimental and vibe-coded projects with **Next.js**, **Supabase**, and **PostgreSQL**.
 - 👯 I’m open to collaborating on **team projects** and **open-source contributions**.
-- 💬 Ask me about **React.js**, **JavaScript**, or anything web development-related!
-- 📫 Reach me at: **ifakhrul23@gmail.com**
+- 💬 Ask me about **React.js**, **JavaScript**, **WordPress**, **Webflow**, **Next.js**, or anything web development-related!
+- 📫 Reach me at: **fakhrul20.alam@gmail.com**
 - ⚡ Fun fact: I love exploring new technologies and constantly challenging myself to learn something new!
 
 ---
@@ -20,12 +23,21 @@
 
 #### Front-End
 - React.js
+- Next.js
 - HTML5, CSS3, JavaScript (ES6+)
 - Tailwind CSS, Bootstrap
+- Webflow
 
 #### Back-End
 - Node.js, Express.js
+- Supabase
+- PostgreSQL
 - MongoDB
+
+#### CMS & Website Platforms
+- WordPress
+- WooCommerce
+- Webflow
 
 #### Others
 - Git & GitHub
