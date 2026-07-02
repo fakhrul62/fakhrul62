@@ -45,19 +45,6 @@
 - RESTful APIs
 - Context API
 
----
-
-### 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=fakhrul62&show_icons=true&theme=radical" alt="Fakhrul's GitHub stats"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=fakhrul62&amp;theme=radical&amp;hide_longest_streak=false&amp;v=4" alt="Fakhrul's GitHub streak"/>
-</p>
-
----
 
 ### 🌐 Connect with Me
 
