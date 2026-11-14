@@ -1,7 +1,9 @@
 <!-- Custom artwork lives in ./assets. Commit the README and assets together. -->
 <picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/hero-mobile-still.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-still.svg" />
   <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg" />
-  <img src="./assets/hero.svg" width="100%" alt="Fakhrul Alam Shuvo. WordPress developer building websites, plugins and API integrations, with full-stack and AI application projects. Based in Dhaka, Bangladesh. Learning NestJS, PostgreSQL and TypeScript. Speed and user experience come first." />
+  <img src="./assets/hero.svg" width="100%" alt="Md. Fakhrul Alam Shuvo, full-stack developer in Dhaka. An animated diagram traces a browser request through a Next.js API to PostgreSQL." />
 </picture>
 
 <p align="center">
@@ -11,57 +13,59 @@
   <a href="mailto:fakhrul20.alam@gmail.com"><img src="./assets/link-email.svg" height="40" alt="Email Fakhrul" /></a>
 </p>
 
-I'm **Md. Fakhrul Alam Shuvo**, a web developer in Dhaka. I build WordPress plugins and WooCommerce sites for clients. My side projects usually start with something I wish I could look up, automate, or use myself.
+I’m **Fakhrul**, a full-stack web developer in Dhaka. My projects include a public API for Bangladesh, a civic complaint portal, and an AI trip planner. I also build WordPress plugins and WooCommerce integrations for clients.
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/projects-mobile.svg" />
   <img src="./assets/projects.svg" width="100%" alt="Things I build" />
 </picture>
 
-### BDApi4All
+### BDApi4All · Try a request
 
-Building an address form for Bangladesh? Fetch the district list directly from my public API.
+I built a public REST API for Bangladesh data. Open a route below for a sample result, or run it against the live API. On a cache miss, the Next.js district handler queries PostgreSQL through Prisma.
 
-```sh
-curl https://bdapi4all.vercel.app/api/v1/districts
-```
+<details>
+<summary><b>GET /districts</b> · Inspect response</summary>
 
-[Open the endpoint](https://bdapi4all.vercel.app/api/v1/districts) · [API docs](https://bdapi4all.vercel.app/docs) · [Source](https://github.com/fakhrul62/bdapi4all)
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/districts-still.svg" />
+  <img src="./assets/districts.svg" width="640" alt="Sample from GET /districts — HTTP 200, first English name Comilla." />
+</picture>
 
-### 🧩 WordPress plugins
+[Run this request](https://bdapi4all.vercel.app/api/v1/districts) · [Read the route handler](https://github.com/fakhrul62/bdapi4all/blob/main/src/app/api/v1/districts/route.ts)
 
-Custom functionality built around real website needs, with published work on WordPress.org.
+</details>
 
-[Explore my WordPress.org profile](https://profiles.wordpress.org/fakhrulalam16/)
+<details>
+<summary><b>GET /divisions</b> · Inspect response</summary>
 
-### ✳️ Apiro Free Icon Picker
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/divisions-still.svg" />
+  <img src="./assets/divisions.svg" width="640" alt="Sample from GET /divisions — HTTP 200, first English name Chattogram." />
+</picture>
 
-A searchable tool for exploring, previewing, and selecting free icons for web and WordPress design workflows.
+[Run this request](https://bdapi4all.vercel.app/api/v1/divisions) · [Read the route handler](https://github.com/fakhrul62/bdapi4all/blob/main/src/app/api/v1/divisions/route.ts)
 
-[Try the icon picker](https://free-awesome.vercel.app/)
+</details>
 
-### 🧭 AI Travel Planner
+[Open the interactive API playground](https://bdapi4all.vercel.app/playground) · [Browse the source](https://github.com/fakhrul62/bdapi4all)
 
-A personal project that creates personalised trip plans with **Next.js, React, Gemini, and MongoDB**.
+### CivicDesk · From complaint form to ticket
 
-[Source code](https://github.com/fakhrul62/travel-ai-dashboard) · [Explore the app](https://travel-ai-dashboard-k3pt.vercel.app/)
+A citizen submits a complaint in the web app. A Next.js server action validates the form and creates a ticket in PostgreSQL through Prisma. Agents and supervisors can track it through review and resolution.
 
-### 🏛️ CivicDesk
+[Read the ticket actions](https://github.com/fakhrul62/civicdesk/blob/main/actions/tickets.ts) · [Explore the data model](https://github.com/fakhrul62/civicdesk/blob/main/prisma/schema.prisma)
 
-A full-stack portal for submitting, organising, and tracking civic complaints through citizen and administrative workflows.
+### AI Travel Planner · From preferences to itinerary
 
-[Source code](https://github.com/fakhrul62/civicdesk)
+I built a React and Next.js dashboard that turns travel preferences into a personalised itinerary using Gemini and MongoDB.
+
+[Try the planner](https://travel-ai-dashboard-k3pt.vercel.app/) · [Browse the source](https://github.com/fakhrul62/travel-ai-dashboard)
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/stack-mobile.svg" />
   <img src="./assets/stack.svg" width="100%" alt="The toolbox" />
 </picture>
-
-### WordPress & website platforms
-
-My professional core: custom functionality, structured content, e-commerce, integrations, troubleshooting, and ongoing maintenance.
-
-<img src="./assets/tech-wordpress.svg" alt="WordPress" height="33" /> <img src="./assets/tech-woocommerce.svg" alt="WooCommerce" height="33" /> <img src="./assets/tech-elementor.svg" alt="Elementor Pro" height="33" /> <img src="./assets/tech-acf.svg" alt="ACF" height="33" /> <img src="./assets/tech-php.svg" alt="PHP" height="33" /> <img src="./assets/tech-webflow.svg" alt="Webflow" height="33" />
 
 ### Frontend & web applications
 
@@ -86,6 +90,12 @@ Hands-on exploration through projects such as an AI travel planner and Hungry Ba
 Growing familiarity through practice and personal projects.
 
 <img src="./assets/tech-nestjs.svg" alt="NestJS" height="33" /> <img src="./assets/tech-postgresql.svg" alt="PostgreSQL" height="33" /> <img src="./assets/tech-typescript.svg" alt="TypeScript" height="33" /> <img src="./assets/tech-postman.svg" alt="Postman" height="33" />
+
+### WordPress & website platforms
+
+My client work covers custom plugins, structured content, e-commerce, and integrations. [Published WordPress plugins](https://profiles.wordpress.org/fakhrulalam16/) · [Apiro Free Icon Picker](https://free-awesome.vercel.app/)
+
+<img src="./assets/tech-wordpress.svg" alt="WordPress" height="33" /> <img src="./assets/tech-woocommerce.svg" alt="WooCommerce" height="33" /> <img src="./assets/tech-elementor.svg" alt="Elementor Pro" height="33" /> <img src="./assets/tech-acf.svg" alt="ACF" height="33" /> <img src="./assets/tech-php.svg" alt="PHP" height="33" /> <img src="./assets/tech-webflow.svg" alt="Webflow" height="33" />
 
 ### Design & delivery
 
