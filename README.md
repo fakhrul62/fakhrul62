@@ -77,7 +77,7 @@ Responsive web development, with React and Next.js experience through personal p
 
 APIs, integrations, and database-backed applications across client work and personal projects.
 
-<img src="./assets/tech-nodejs.svg" alt="Node.js" height="33" /> <img src="./assets/tech-express.svg" alt="Express.js" height="33" /> <img src="./assets/tech-rest.svg" alt="REST APIs" height="33" /> <img src="./assets/tech-mysql.svg" alt="MySQL" height="33" /> <img src="./assets/tech-mongodb.svg" alt="MongoDB" height="33" />
+<img src="./assets/tech-nodejs.svg" alt="Node.js" height="33" /> <img src="./assets/tech-express.svg" alt="Express.js" height="33" /> <img src="./assets/tech-nestjs.svg" alt="NestJS" height="33" /> <img src="./assets/tech-rest.svg" alt="REST APIs" height="33" /> <img src="./assets/tech-mysql.svg" alt="MySQL" height="33" /> <img src="./assets/tech-mongodb.svg" alt="MongoDB" height="33" />
 
 ### AI application projects
 
