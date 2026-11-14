@@ -1,9 +1,9 @@
 <!-- Custom artwork lives in ./assets. Commit the README and assets together. -->
 <picture>
-  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/hero-mobile-still.svg" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-still.svg" />
-  <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg" />
-  <img src="./assets/hero.svg" width="100%" alt="Md. Fakhrul Alam Shuvo, full-stack developer in Dhaka. An animated diagram traces a browser request through a Next.js API to PostgreSQL." />
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/fullstack-nestjs-mobile-still.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/fullstack-nestjs-still.svg" />
+  <source media="(max-width: 600px)" srcset="./assets/fullstack-nestjs-mobile.svg" />
+  <img src="./assets/fullstack-nestjs.svg" width="100%" alt="Md. Fakhrul Alam Shuvo, full-stack developer in Dhaka. An animated diagram traces a browser request through a Next.js API to PostgreSQL." />
 </picture>
 
 <p align="center">
@@ -12,6 +12,8 @@
   <a href="https://profiles.wordpress.org/fakhrulalam16/"><img src="./assets/link-wordpress.svg" height="40" alt="Explore my WordPress plugins" /></a>
   <a href="mailto:fakhrul20.alam@gmail.com"><img src="./assets/link-email.svg" height="40" alt="Email Fakhrul" /></a>
 </p>
+
+**Server stack** · Node.js · Express · **NestJS**
 
 I’m **Fakhrul**, a full-stack web developer in Dhaka. My projects include a public API for Bangladesh, a civic complaint portal, and an AI trip planner. I also build WordPress plugins and WooCommerce integrations for clients.
 
